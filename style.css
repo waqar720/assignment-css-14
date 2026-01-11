@@ -403,6 +403,7 @@ h2{
 .card-text-box span{
     position: relative;
     top: -35px;
+    left: 26px;
 }
 .price{
     color: #FFAB71;
@@ -502,7 +503,7 @@ h2{
     font-weight: 700px;
 }
 .course-title p{
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 0.2px;
     line-height: 20px;
     font-weight: 400px;
