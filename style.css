@@ -445,17 +445,32 @@ h2{
     font-size:30px;
     color: gold;
 }
-.profile-text p{
+.profile-cards{
+    width: 1045px;
+    height: 317px;
+    padding: 80px;
+}
+.profile-text{
+    width: 159px;
     height: 120px;
+    display: grid;
+    row-gap: 20px;
+}
+.profile-text p{
     font-size: 16px;
     letter-spacing: 0.2px;
-   
+    text-align: center;
 }
 .profile{
+    display: flex;
+    column-gap: 13px;
+    row-gap: 10px;
     
 }
 .profile-info{
     text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 .profile-info h4{
     width: 93px;
@@ -463,5 +478,91 @@ h2{
 }
 .profile-info span{
     font-size: 12px;
-    background-color: goldenrod;
+}
+/* course-section */
+#course-section{
+    height: 827px;
+    padding: 112px 0px;
+}
+.course-title{
+    display: grid;
+    row-gap: 10px;
+    width: 469px;
+}
+.course-title h6{
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.course-title h3{
+    font-size: 26px;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    font-weight: 700px;
+}
+.course-title p{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-weight: 400px;
+}
+.course-cards{
+    padding: 130px 0px;
+
+}
+.course-card{
+    width: 238px;
+    height: 350px;
+    display: grid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+.cover-pic1{
+    width: 238px;
+    height: 200px;
+    border-radius: 20px;
+}
+.course-card h6{
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    font-weight: 700;
+}
+.course-card span{
+     font-size: 12px;
+     letter-spacing: 0.1px;
+     text-align: center;   
+     font-weight: 400px;
+}
+.social-link{
+    text-align: center;
+}
+.fb{
+    width: 23px;
+    height: 23px;
+    text-align: center;   
+}
+/* subscriber-section */
+#subscriber-section{
+    height: 574px;  
+    text-align: center;
+    padding: 160px;
+}
+.subscrib-text{
+    width: 691px;
+}
+.subscrib-text h6{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 24px;
+}
+.subscrib-text h3{
+    font-size: 30px;
+    font-weight: 700;
+} 
+.subscrib-text p{
+    font-size: 16px;
+    letter-spacing: 0.4px;
 }
