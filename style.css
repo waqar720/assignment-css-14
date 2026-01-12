@@ -414,12 +414,16 @@ h2{
 .price1{
     color: #BDBDBD;
 }
-.card-button{
-    color: tomato;
+.teacher-btn{
     background-color: white;
     width: 141px;
     height: 44px;
+    padding: 10px 20px;
     border-radius: 37px;
+}
+.teacher-btn a{
+    color:#96BB7C;
+    
 }
 /* clin-section-box */
 #layout-section-box{
@@ -553,6 +557,8 @@ h2{
 }
 .subscrib-text{
     width: 691px;
+    display: grid;
+    row-gap: 16px;
 }
 .subscrib-text h6{
     font-size: 20px;
@@ -566,4 +572,62 @@ h2{
 .subscrib-text p{
     font-size: 16px;
     letter-spacing: 0.4px;
+}
+.dis-1{
+    display: grid;
+    row-gap: 15px;
+}
+.subs-box{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    outline: none;
+}
+.btn-1{
+    width: 9vw;
+    height: 4vw;
+    border-radius: 4px;
+    background-color: #96BB7C;
+    color: white;
+    cursor: pointer;
+}
+.subs-email{
+    width: 35vw;
+    height: 4vw;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: #F9F9F9;
+}
+/* footer-section */
+#footer-section {
+    padding: 25px 0px;
+}
+.contact-info{
+    display: grid;
+    row-gap: 20px;
+}
+.contact-info h5 {
+    display: grid;
+    font-size: 16px;
+}
+.contact-info ul{
+    display: grid;
+    row-gap: 12px;
+}
+.contact-info ul a{
+    color:#737373;
+}
+/* copyright-box */
+#copyright-section{
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 74px;
+    padding: 25px 0px;  
+}
+.copyright-box h6{
+    font-size: 14px;
+}
+.social-links{ 
+    justify-content: space-between;
+    padding-right: 20px;
 }
